@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Yell page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+		<style>
+
+			body{
+				font-size: 1em;
+				min-width: 200px;
+				font-family: 'Open Sans';
+				margin: 0;
+			}	
+			.text-center{
+				text-align: center;
+			}
+			.first {
+				background-color: #333333;				
+			}
+			.first ul li{
+				display: inline-block;	
+			}
+			.first ul li a{	
+				color:white;
+				float: left;
+				text-decoration: none;
+				margin: 0.2vw 1vw 0.2vw 1vw;
+				
+			}
+			.right{
+				float: right;
+			} 
+
+			.second ul li a{
+				text-decoration: none;
+				color: black;
+				
+			}
+
+			.second ul li{
+				display: inline-block;
+				
+			}
+			#login{
+				margin-right: 2vw;
+			}
+			.login-1{
+				vertical-align: top;
+				padding-right: 1vw;
+			}
+
+			.login-2{
+				vertical-align: baseline;
+				padding-right: 2vw;
+			}
+			ul li a{
+				float: left;
+				text-decoration: none;
+			}
+			
+			.third{
+				background-color: #FEDB00;
+				text-align: center;
+				font-size: 1em;
+				width: 100%;
+			}
+			#third-text-center{
+				font-size: 3.5em;
+				margin: 0;
+				padding:  3vw 0 0 0;
+			}
+			.input-search{
+				text-align: center;
+				margin: 0 0vw 0vw 0w;
+				min-width: 10vw;
+				background-image: url("icons_img/search.png");
+				background-repeat: no-repeat;
+				
+				position: relative;
+				background-position: 98% 50%;
+				height: 3vw;
+				width: 40vw;
+				font-size: 2vw;
+				margin: 2vw;
+				border-radius: 0.5vw;
+			}
+			.fourth-1 p{
+				
+				font-size: 1.5em;
+				display: inline-block;
+				margin-left: 5vw ;
+			}
+
+			.fourth{
+				margin: 0 3vw 0 8vw;
+				
+			}
+			
+			.fourth ul {
+				min-width: 100px;
+				
+				margin:  0 0 2vw 0;
+
+			}
+			.fourth ul li{
+				display: inline-block;
+				margin: 1vw 3vw 0 3vw;
+				text-align: center;
+				
+				min-width: 7em;
+				max-width: 8em;
+
+			}
+				
+			.fourth ul li span{
+					display: inline-block;
+					font-weight: 900;
+					max-height: 10em;
+					height: 2em;
+					color: black;
+			}
+			.fourth ul li a img{
+				display: block;
+				max-height:"75vw" ;
+				width: "75vw";
+				align-content: center;
+		
+				margin: 0 1em 0 1em;
+				
+			}
+			.fifth{
+				background-color:#FEDB00;
+				
+			}
+			.fifth-left{
+				display: inline-block;
+				width: 50%;		
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="first">
+			<ul class="first-ul">
+
+				<li ><a href="" >Yell.com</a></li>
+				<li><a href="">Yell Business</a></li>
+				<spam style="float: right;">
+				<li ><a href="">Download the app</a></li>
+				<li ><a href="">Get a free Listing</a></li>
+				
+				<li ><a href="" >Advertise <img src="./icons_img/call.png" style="height: 1.5em; margin: 0;vertical-align:text-bottom;" > 0800 777 449</a></li>
+				
+				</spam>
+			</ul>
+		</div>
+		<div class="second">
+			<ul>
+				<li><a href=""><img src="./icons_img/logo.png"height=45vw><strong style="font-size: 55px ;"> Yell</strong><span style="font-size: 10px;"> TM</span></a></li>
+				<li id="login" style="float: right;"><a href=""><img class="login-1" src="./icons_img/userlogin.png"><span style="margin: 0 5vw 5vw 0;">Log in</span><img class="login-2" src="./icons_img/login.png"></a></li>
+			</ul>
+		</div>
+		<div class="third">
+			<h1 class="text-center" id="third-text-center">Help and Support</h1>
+			<input type="text" name="search" placeholder="Ask a question"  class="input-search">
+		</div>
+		<div class="fourth-1">
+			<p>Our most popular topics</p>
+		<div class="fourth">
+			<ul class="fourth-li">
+			
+				<li><a href=""><img src="./icons_img/billing.png"><br><span class="text-center">Billing</span></a></li>
+				<li><a href=""><img src="./icons_img/Reviews.png"><br><span class="text-center">Reviews</span></a></li>
+				<li><a href=""><img src="./icons_img/Website amends.png"><br><span class="text-center">Website amends</span></a></li>
+				<li><a href=""><img src="./icons_img/Online account.png"><br><span class="text-center">Online account</span></a></li>
+				<li><a href=""><img src="./icons_img/Yell.png"><br><span class="text-center">Yell.com</span></a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="fifth">
+			<li class="fifth-left">
+				Need more help?<br>Talk to Hartley
+			</li>
+			<li class="fifth-right">
+				Hartley is our new digital assistant here to help answer your questions
+			</li>
+			<img>
+		</div>
+
+	</body>
+</html>
