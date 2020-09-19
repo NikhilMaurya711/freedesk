@@ -1,219 +1,242 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<title>Yell page</title>
-		<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<head>
+	<!-- Required meta tags -->
+	<title>Yell Page1</title>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+		integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<style>
-			 .row div {
-                border: 1px solid 
-            }
-			body{
-				font-size: 1vw;
-				min-width: 200px;
-				font-family: 'Open Sans';
-				margin: 0;
-			}	
-			.text-center{
-				text-align: center;
-			}
-			.text-right{
-				text-align: center;
-			}
-			.first {
-				background-color: #333333;
-				margin: 0 0 0 0;	
-				text-decoration: none;		
-			}
+	<style>
+		body {
+			margin: 0;
+			min-width: 20vw;
+		}
 
+		.active {
+			color: #FEDB00;
+		}
 
-			.txt-wt a {
-                color: white;
-				text-align: right;
-				font-size: 16px;
-				text-align: center;
-				margin: 1px 0 2px 0;
-            }
-			.logo {
-				margin: 0;
-			}
+		.text-white {
+			color: white;
+		}
 
-			.second ul section a{
-				text-decoration: none;
-				color: black;
-				
-			}
-			
-			.second ul li{
-				display: inline-block;
-				
-			}
-			#login{
-				margin-right: 2vw;
-			}
-			.login-1{
-				vertical-align: top;
-				padding-right: 1vw;
-			}
+		.text-yellow {
+			color: #FEDB00;
+		}
 
-			.login-2{
-				vertical-align: baseline;
-				padding-right: 2vw;
-			}
-			ul li a{
-				float: left;
-				text-decoration: none;
-			}
-			
-			.third{
-				background-color: #FEDB00;
-				text-align: center;
-				font-size: 1em;
-				width: 100%;
-			}
-			#third-text-center{
-				font-size: 3.5em;
-				margin: 0;
-				padding:  3vw 0 0 0;
-			}
-			.input-search{
-				text-align: center;
-				margin: 0 0vw 0vw 0w;
-				min-width: 10vw;
-				background-image: url("icons_img/search.png");
-				background-repeat: no-repeat;
-				
-				position: relative;
-				background-position: 98% 50%;
-				height: 3vw;
-				width: 40vw;
-				font-size: 2vw;
-				margin: 2vw;
-				border-radius: 0.5vw;
-			}
-			.fourth-1 p{
-				
-				font-size: 1.5em;
-				display: inline-block;
-				margin-left: 5vw ;
-			}
+		.third {
+			margin: 1vw 0;
+		}
 
-			.fourth{
-				margin: 0 3vw 0 8vw;
-				
-			}
-			
-			.fourth ul {
-				min-width: 100px;
-				margin:  0 0 2vw 0;
+		.ft-blk {
+			color: black;
+		}
 
-			}
-			.fourth ul li{
-				display: inline-block;
-				margin: 1vw 3vw 0 3vw;
-				text-align: center;
-				
-				min-width: 7em;
-				max-width: 8em;
+		.bg-yellow {
+			background-color: #FEDB00;
+			color: black;
+			padding: 3vw;
+		}
 
-			}
-				
-			.fourth ul li span{
-					display: inline-block;
-					font-weight: 900;
-					max-height: 10em;
-					height: 2em;
-					color: black;
-			}
-			.fourth ul li a img{
-				display: block;
-				max-height:"75vw" ;
-				width: "75vw";
-				align-content: center;
-		
-				margin: 0 1em 0 1em;
-				
-			}
-			.fifth{
-				background-color:#FEDB00;
-				
-			}
-			.fifth-left b{
-				display: inline-block;
-				width: 50%;	
-				font-size: 2em;	
-				margin: 2vw 5vw 2vw 30vw ;
-			
-			}
+		.input-search {
+			background-image: url("icons_img/search.png");
+			background-repeat: no-repeat;
+			position: relative;
+			background-position: 98% 50%;
+			min-height: 20px;
+			margin-top: 2vw;
+			margin-bottom: 0.5vw;
+			font-size: 2em;
+			border-radius: 0.5vw;
+		}
 
-			.fifth-right span{
-				display: inline-block;	 	
-				width:50%; 
-				
-			}
+		.text-large {
+			font-size: 5em;
+		}
 
-		</style>
-	</head>
-	<body>
+		.text-md {
+			font-size: 2em;
+		}
 
-		<div class="container-fluid first" >
-            <div class="row  text-center ">
-                <div class="col-xs-12 col-sm-6  col-lg-2 txt-wt "><a href="" >Yell.com</a></div>
-                <div class="col-xs-12 col-sm-6  col-lg-2 txt-wt"><a href="">Yell Business</a></div>
-                <div class="col-xs-12 col-sm-4  col-lg-2 col-lg-offset-2 txt-wt" ><a href="">Download the app</a></div>
-                <div class="col-xs-12 col-sm-4 col-lg-2 txt-wt " ><a href="">Get a free Listing</a></div>
-                <div class="col-xs-12 col-sm-4  col-lg-2 txt-wt"><a href="" >Advertise<img src="./icons_img/call.png" style="height: 20px; margin: 0;vertical-align:top;" >0800 777 449</a></div>
-              
-            </div>
-        </div>
-		<div class="container-fluid second" >
-            <div class="row ">
-                <div class="col-xs-12 col-sm-6  col-lg-2 col-lg-offset-1 text-center "><a href="" ><img src="./icons_img/logo.png" height=55px><strong style="font-size: 45px ;">Yell</strong><span style="font-size: 10px;"> TM</span></a></div>
-                <div class="col-xs-6 col-sm-6  col-lg-2 col-lg-offset-6  "><a href=""><img src="./icons_img/userlogin.png"><strong>  Log in </strong></a></div>
-                <div class="col-xs-6 col-sm-6  col-lg-1  text-center "><a href=""><img src="./icons_img/login.png"></a></div>
-            </div>
-        </div>
-		<div class="third">
-			<h1 class="text-center" id="third-text-center">Help and Support</h1>
-			<form action="">
-			<input type="text" name="search" placeholder="Ask a question"  class="input-search" >
-			
-			</form>
-			
+		.text-sm {
+			font-size: 1.3em;
+		}
+
+		.lft-2 {
+			margin: 0 0 0 2vw;
+			font-size: 20px;
+		}
+
+		.btn {
+			font-size: 1.8em;
+			border-radius: 0.4em;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar  navbar-inverse">
+		<div class="container-fluid  " style="margin: 0;">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#3dots">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+			</div>
+			<div class="collapse  row navbar-collapse" id="3dots">
+				<ul class="nav navbar-nav">
+					<li class=" active	"><a>Yell.com</a></li>
+					<li><a href="">Yell Business</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">Download the app</a></li>
+					<li><a href="">Get a free Listing</a></li>
+					<li><a href="">Advertise <img src="./icons_img/call.png"
+								style="height: 1.5em; margin: 0;vertical-align:top;"> 0800 777 449</a></li>
+				</ul>
+			</div>
+
 		</div>
-		<div class="fourth-1">
-			<p>Our most popular topics</p>
-		<div class="fourth">
-			<ul class="fourth-li">
-			
-				<li><a href=""><img src="./icons_img/billing.png"><br><span class="text-center">Billing</span></a></li>
-				<li><a href=""><img src="./icons_img/Reviews.png"><br><span class="text-center">Reviews</span></a></li>
-				<li><a href=""><img src="./icons_img/Website amends.png"><br><span class="text-center">Website amends</span></a></li>
-				<li><a href=""><img src="./icons_img/Online account.png"><br><span class="text-center">Online account</span></a></li>
-				<li><a href=""><img src="./icons_img/Yell.png"><br><span class="text-center">Yell.com</span></a></li>
+	</nav>
+
+	<div class="container-fluid second">
+		<div class="row text-center">
+			<div class="col-xs-7 col-sm-3 col-lg-2  "><a href=""></a>
+				<span>&emsp;&emsp;&emsp;<img src="./icons_img/logo.png" height=55px></span>
+				<strong style="font-size:200%">Yell</strong>
+				<span style="font-size:50%">TM</span>
+			</div>
+			<a href="">
+				<div class="col-xs-3 col-sm-2 col-sm-offset-6 col-lg-2 col-lg-offset-7 text-center ">
+					<img src="./icons_img/userlogin.png"><strong>&emsp;Log in</strong>
+
+				</div>
+				<div class="col-xs-2 col-sm-1 col-lg-1 nav ">
+					<img src="./icons_img/login.png">
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div>
+		<div class="row third bg-yellow ">
+			<div class="text-center col-xs-12">
+				<span class=" text-large">Help and Support</span>
+			</div>
+			<form class="text-center" action="">
+				<input class="text-center col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3  input-search " type="text"
+					name="search" placeholder="Ask a question">
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<div class="row " style="margin:0;">
+			<span class="  lft-2 text-center col-xs-12  col-sm-12 col-sm-offset-0 col-lg-3  ft-blk"
+				style="font-size:1.7em;margin-left: 0;">Our most popular topics</span>
+		</div>
+		<div class="row" style="margin:0;">
+			<ul class="nav ">
+
+				<li class=" text-center col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1"><a href="">
+						<span class="row ">
+							<img src="./icons_img/billing.png">
+						</span>
+						</span>
+						<span class="row">
+							<span class="ft-blk text-sm">Billing</span>
+						</span>
+					</a>
+				</li>
+
+
+				<li class=" text-center col-xs-12 col-sm-6 col-md-4 col-lg-2 "><a href="">
+						<span class="row ">
+							<img src="./icons_img/Reviews.png">
+						</span>
+						</span>
+						<span class="row">
+							<span class="ft-blk text-sm">Reviews</span>
+						</span>
+					</a>
+				</li>
+
+				<li class=" text-center col-xs-12 col-sm-6 col-md-4 col-lg-2 "><a href="">
+						<span class="row ">
+							<img src="./icons_img/Website amends.png">
+						</span>
+						</span>
+						<span class="row">
+							<span class="ft-blk text-sm">Website amends</span>
+						</span>
+					</a>
+				</li>
+				<li class=" text-center col-xs-12 col-sm-6 col-md-6 col-lg-2 "><a href="">
+						<span class="row ">
+							<img src="./icons_img/Online account.png">
+						</span>
+						</span>
+						<span class="row">
+							<span class="ft-blk text-sm">Online account</span>
+						</span>
+					</a>
+				</li>
+				<li class=" text-center col-xs-12 col-sm-12 col-md-6 col-lg-2 "><a href="">
+						<span class="row ">
+							<img src="./icons_img/Yell.png">
+						</span>
+						</span>
+						<span class="row">
+							<span class="ft-blk text-sm">Yell.com</span>
+						</span>
+					</a>
+				</li>
+
 			</ul>
 		</div>
+		<div class="container-fluid bg-yellow" style="padding: 0.5vw; margin:0">
+			<ul>
+				<div class="row col-xs-12 col-sm-12 col-md-6 col-lg-3 col-lg-offset-3  text-center"
+					style="font-size:2.2em">
+					<div>
+						Need more help?<br>Talk to Hartley
+					</div>
+				</div>
+				<div class="row col-lg-6" style="padding: 0.5vw; margin: 0">
+					<div class="row col-xs-12 col-sm-12 col-md-6 col-lg-11 col-lg-offset-1 text-sm "
+						style="font-size:1.5em"> <span>Hartley is our new digital assistant here to help answer your
+							questions</span></div>
+					<div class=" text-center row col-xs-12 col-sm-12 col-md-6  col-lg-7 col-lg-offset-5 "><button
+							class="btn">Talk to Hartley</button></div>
+
+				</div>
+			</ul>
 		</div>
-		<div class="fifth">
-			<section class="fifth-left">
-				<b>Need more help?<br>Talk to Hartley</b>
-			</section>
-			<section class="fifth-right">
-				<span>Hartley is our new digital assistant here to help answer your questions</span>
-				<img>
-			</section>
-			
-		</div>
-		
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	</body>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
